@@ -1,0 +1,23 @@
+class Ladder
+{
+	public static void main(String[]args)
+	{
+		int a=100;
+		int b=200;
+		int c=300;
+		if((a==100)&&(b==200))
+		{
+			System.out.println("perfect");		
+		}
+		else if((a!=100)&&(b!=200))
+		{
+			System.out.println("not bad");
+			
+		}
+		else
+		{
+			System.out.println("c is a option");
+			
+		}
+	}
+}
