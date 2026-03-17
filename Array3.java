@@ -4,6 +4,7 @@ class Array3
 	public static void main(String[]args)
 	{
 		Scanner sc=new Scanner(System.in);
+		Scanner sci=new Scanner(System.in);
 		System.out.print("ENTER THE ROW SIZE");
 	    int row=sc.nextInt();
 		System.out.print("ENTER THE COLUMN SIZE");
@@ -15,8 +16,8 @@ class Array3
 			for(int j=0;j<arr[i].length;j++)
 			{
 				System.out.print("ENTER THE  "+i+j+"VALUE :");
-				 arr[i][j]=sc.nextLine();
-				 System.out.println("");
+				 arr[i][j]=sci.nextLine();
+				 
 			}
 			
 		}
