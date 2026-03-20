@@ -13,8 +13,8 @@ class Max
 			System.out.print("ENTER THE VALUE OF "+i+":");
 			arr[i]=sc.nextInt();
 		}
-		int max=Integer.MIN_VALUE;
-		int secmax=Integer.MIN_VALUE;
+		int max=0;
+		int secmax=0;
 		for(int i=0;i<arr.length;i++)
 	    {
 			if(arr[i]>max)
